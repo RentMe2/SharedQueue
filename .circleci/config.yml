@@ -6,12 +6,12 @@ jobs:
     docker:
       - image: cimg/base:2021.07
     steps:
-      - run: apt-get install build-essential
-      - run: apt-get install autoconf automake gdb git libffi-dev zlib1g-dev libssl-dev
-      - run: mkdir build
-      - run: cd build
-      - run: cmake ..
-      - run: make
+      - run: sudo apt-get install build-essential
+      - run: sudo apt-get install autoconf automake gdb git libffi-dev zlib1g-dev libssl-dev
+      - run: sudo mkdir build
+      - run: sudo cd build
+      - run: sudo cmake ..
+      - run: sudo make
 
 workflows:
   version: 2.1
