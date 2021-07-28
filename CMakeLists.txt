@@ -2,10 +2,16 @@ cmake_minimum_required(VERSION 3.19)
 project(sharedQueue)
 
 set(CMAKE_CXX_STANDARD 17)
-include_directories(include)
+set (THIRD_PARTY_LIBS third_party/lib)
+set (THIRD_PARTY_INCLUDE third_party/include)
+include_directories(third_party/include
+        include/)
+
 file(GLOB INCLUDES
         include/queue/sharedQueue.hpp
         )
-add_executable(sharedQueue main.cpp include/queue/sharedQueue.hpp ${INCLUDES})
-target_link_libraries(sharedQueue
+
+add_executable(${PROJECT_NAME} main.cpp include/queue/sharedQueue.hpp ${INCLUDES})
+target_link_libraries(${PROJECT_NAME}
         pthread)
+add_subdirectory(tests)
