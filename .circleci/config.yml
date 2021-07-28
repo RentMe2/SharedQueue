@@ -9,8 +9,8 @@ jobs:
       - run: sudo apt-get install build-essential
       - run: sudo mkdir build
       - run: cd build
-      - run: sudo cmake ..
-      - run: sudo make
+      - run: cmake ..
+      - run: make
 
 workflows:
   version: 2.1
