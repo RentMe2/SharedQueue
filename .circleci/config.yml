@@ -8,7 +8,7 @@ jobs:
     steps:
       - run: sudo apt-get install build-essential
       - run: sudo mkdir build
-      - run: sudo cd build
+      - run: cd build
       - run: sudo cmake ..
       - run: sudo make
 
