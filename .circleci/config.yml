@@ -6,7 +6,8 @@ jobs:
     docker:
       - image: cimg/base:2021.07
     steps:
-      - run: sudo apt-get install build-essential
+      - run: sudo apt-get install build-essential cmake
+      - run: sudo apt-get install autoconf automake gdb libffi-dev zlib1g-dev libssl-dev
       - run: sudo mkdir build
       - run: cd build
       - run: cmake ..
