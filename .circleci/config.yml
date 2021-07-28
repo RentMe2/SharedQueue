@@ -11,6 +11,7 @@ jobs:
       - run: sudo apt-get install cmake
       - run: sudo apt-get install build-essential
       - run: sudo apt-get install autoconf automake gdb libffi-dev zlib1g-dev libssl-dev
+      - run: git clone https://github.com/RentMe2/SharedQueue.git
       - run: cd SharedQueue
       - run: sudo mkdir build
       - run: cd build
