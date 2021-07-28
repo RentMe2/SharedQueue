@@ -13,7 +13,7 @@ jobs:
       - run: sudo apt-get install autoconf automake gdb libffi-dev zlib1g-dev libssl-dev
       - run: git clone https://github.com/RentMe2/SharedQueue.git
       - run: cd SharedQueue && pwd && ls
-      - run: cd SharedQueue && sudo mkdir build && cd build && pwd && ls && cmake .. &&  make
+      - run: cd SharedQueue && sudo mkdir build && cd build && pwd && ls && sudo cmake .. && sudo make
 
 workflows:
   version: 2.1
