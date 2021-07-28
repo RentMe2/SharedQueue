@@ -15,9 +15,9 @@ jobs:
       - run: cd SharedQueue
       - run: sudo mkdir build
       - run: cd build
-      - run: cmake ..
       - run: pwd
       - run: ls
+      - run: cmake ..
       - run: make
 
 workflows:
