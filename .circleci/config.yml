@@ -11,11 +11,10 @@ jobs:
       - run: mkdir build
       - run: cd build
       - run: cmake ..
-      - run: make 
+      - run: make
 
 workflows:
   version: 2.1
   build:
     jobs:
       - build-for-linux
-      - build-for-windows
