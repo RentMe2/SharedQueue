@@ -16,6 +16,8 @@ jobs:
       - run: sudo mkdir build
       - run: cd build
       - run: cmake ..
+      - run: pwd
+      - run: ls
       - run: make
 
 workflows:
