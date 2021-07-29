@@ -2,6 +2,9 @@
 # SharedQueue
 [![CircleCI](https://circleci.com/gh/RentMe2/SharedQueue.svg?style=svg)](https://github.com/RentMe2/SharedQueue)
 <br />
+[![Coverage Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/MuhammadMoeedUllah/Coverege Badge/raw/SharedQueue__heads_main.json)]
+<br />
+
 A simple library that implements a thread safe queue for multiple consumers and multiple producers.  
 
 To run the project use following steps
