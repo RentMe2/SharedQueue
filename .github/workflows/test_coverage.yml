@@ -32,14 +32,13 @@ jobs:
           echo "COVERAGE=$(echo 100%)" >> $GITHUB_ENV
 
       - name: Create the Badge
-        uses: schneegans/dynamic-badges-action@v1.0.0
+        uses: schneegans/dynamic-badges-action@v1.1.0
         with:
           auth: ${{ secrets.GIST_SECRET }}
           gistID: 52019294b0eaaae8927f305e7c1b7052
-          filename: SharedQueue__${{ main }}.json
+          filename: test.json
           label: Test Coverage
           message: ${{ env.COVERAGE }}
           color: green
-          namedLogo: jest
 
 

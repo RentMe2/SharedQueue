@@ -4,12 +4,10 @@
 <br />
 <br />
 
-[![Coverage Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/MuhammadMoeedUllah/52019294b0eaaae8927f305e7c1b7052/raw/SharedQueue__heads_main.json)]
+[![Coverage Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/RentMe2/52019294b0eaaae8927f305e7c1b7052/raw/test.json)]
 <br />
 <br />
 
-![example workflow](https://github.com/RentMe2/SharedQueue/actions/workflows/test_coverage.yml/badge.svg)
-<br />
 
 A simple library that implements a thread safe queue for multiple consumers and multiple producers.  
 
