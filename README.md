@@ -1,7 +1,7 @@
 
 # SharedQueue
 [![CircleCI](https://circleci.com/gh/RentMe2/SharedQueue.svg?style=svg)
-![Coverage Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/RentMe2/52019294b0eaaae8927f305e7c1b7052/raw/test.json)]
+![Coverage Badge](https://img.shields.io/endpoint?url=https://gist.githubusercontent.com/MuhammadMoeedUllah/52019294b0eaaae8927f305e7c1b7052/raw/test.json)]
 <br />
 <br />
 
